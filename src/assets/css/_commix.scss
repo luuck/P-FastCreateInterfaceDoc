@@ -1,0 +1,34 @@
+@mixin setLayout($w, $h, $imgUrl) {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: $w;
+    height: $h;
+    background: url($imgUrl);
+    position: relative;
+    overflow: hidden;
+}
+
+@mixin setPosition($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+}
+
+@mixin setFontStyle($fsize, $color, $fstyle:'Microsoft Yahei') {
+    font-size: $fsize;
+    color: $color;
+    font-family: $fstyle;
+}
+
+@mixin setBg($url, $w, $h) {
+    background: url($url) no-repeat center top;
+    background-size: contain;
+    width: $w;
+    height: $h;
+}
+
+@mixin setLocationCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

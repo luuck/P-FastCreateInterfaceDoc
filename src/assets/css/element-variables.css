@@ -1,0 +1,14 @@
+/* 改变按钮的颜色 */
+
+.el-button--primary.is-plain:focus {
+    color: #409EFF;
+    background: #ecf5ff;
+    border-color: #b3d8ff;
+}
+
+.el-button--primary.is-plain:hover {
+    color: #409EFF;
+    /* background: #ecf5ff; */
+    border-color: #b3d8ff;
+    background: #ecf5ff + 2;
+}
