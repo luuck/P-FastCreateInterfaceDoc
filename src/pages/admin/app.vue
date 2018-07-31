@@ -95,22 +95,5 @@ $w: 1000px;
         top: -12px;
     }
 }
-
-.string {
-    color: green;
-}
-.number {
-    color: darkorange;
-}
-.boolean {
-    color: blue;
-}
-.null {
-    color: magenta;
-}
-.key {
-    color: red;
-}
-
 </style>
 
