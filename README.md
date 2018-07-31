@@ -1,7 +1,7 @@
 # P-FastCreateInterfaceDoc
 
 
-## Build Setup
+## 安装
 
 ``` bash
 # install dependencies

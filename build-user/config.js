@@ -1,15 +1,15 @@
 module.exports = {
     chunk: false, //是否开启动态chunk 默认false 开启后 页面上会出现 var configBaseUrl = '<configBaseUrl>';
     assetsPublicPath: './', // 只能为 ‘/’ 或 ‘./’
-    baseUrl: '//static.tcy365[webport]', //项目资源根目录 [webport] 后缀标识符 默认不修改
+    baseUrl: '//luuck.github.io/P-FastCreateInterfaceDoc/dist/', //'//static.tcy365[webport]', //项目资源根目录 [webport] 后缀标识符 默认不修改
     appUrl: '/', //项目路径  如   /mobile/test/
-    px2rem: null,//{ rootValue: 100 }, //px2rem 转换内容 如 { rootValue: 100 } 非rem项目 使用null
+    px2rem: null, //{ rootValue: 100 }, //px2rem 转换内容 如 { rootValue: 100 } 非rem项目 使用null
     list: [
         { title: '1505-stable', webPort: '.org:1505' },
         { title: '1507-test', webPort: '.org:1507' },
         { title: '1506-develop', webPort: '.org:1506' },
         { title: '2505-pre', webPort: '.com:2505' },
-        { title: '80-static', webPort: '.com' }
+        { title: 'view', webPort: '.com' }
     ],
     proxy: {
         '/api': { //印射为/api
