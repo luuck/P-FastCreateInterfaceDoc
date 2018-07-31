@@ -9,7 +9,7 @@ module.exports = {
         { title: '1507-test', webPort: '.org:1507' },
         { title: '1506-develop', webPort: '.org:1506' },
         { title: '2505-pre', webPort: '.com:2505' },
-        { title: 'view', webPort: '.com' }
+        { title: 'view', webPort: '/' }
     ],
     proxy: {
         '/api': { //印射为/api
