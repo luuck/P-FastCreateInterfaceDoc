@@ -66,7 +66,7 @@ export default {
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .el-loading-spinner{
     position: absolute;
     z-index: 100;
@@ -110,31 +110,6 @@ $w: 1000px;
 }
 .key {
     color: red;
-}
-
-.el-button--primary.is-plain:focus {
-    color: #409EFF;
-    background: #ecf5ff;
-    border-color: #b3d8ff;
-}
-
-.el-button--primary.is-plain:hover {
-    color: #409EFF;
-    /* background: #ecf5ff; */
-    border-color: #b3d8ff;
-    background: #ecf5ff + 2;
-}
-
-.el-button--success.is-plain:focus {
-    color: #67c23a;
-    background: #f0f9eb;
-    border-color: #c2e7b0;
-}
-
-.el-button--success.is-plain:hover {
-    color: #67c23a;
-    background: #f0f9eb;
-    border-color: #c2e7b0 + 2;
 }
 
 </style>

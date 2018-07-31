@@ -94,7 +94,7 @@
  }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 $w: 600px;
 // $h: 560px;
 // $h: 97%;
