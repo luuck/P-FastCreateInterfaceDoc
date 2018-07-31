@@ -17,7 +17,7 @@ const routes = [{
 }];
 
 export default new VueRouter({
-    mode: 'history',
+    // mode: 'history',
     //base: '/static/v2/',
     routes
 });
