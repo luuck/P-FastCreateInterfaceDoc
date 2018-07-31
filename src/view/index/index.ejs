@@ -29,6 +29,16 @@
             <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
                 <script type="text/javascript" src="<%=htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
                 <% } %>
+                    <script>
+                        var _hmt = _hmt || [];
+                        (function() {
+                            var hm = document.createElement("script");
+                            hm.src = "https://hm.baidu.com/hm.js?25679ee785d165c9a124d9c91009911e";
+                            var s = document.getElementsByTagName("script")[0];
+                            s.parentNode.insertBefore(hm, s);
+                        })();
+                    </script>
+
 </body>
 
 </html>
