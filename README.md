@@ -1,5 +1,4 @@
 # P-FastCreateInterfaceDoc
-[TOC]
 
 ### 背景
 
