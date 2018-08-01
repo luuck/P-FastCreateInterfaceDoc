@@ -11,7 +11,7 @@
 这是一款通过配置表的方式`内置公共接口`，`快速生成Markdown语法`的接口文档，`一键拷贝`到showdoc即可！
 
 我们看一下它的功能：大致分为4个板块的功能，便可快速实现我们想要的需求，想想都觉得😊。
-![](https://luuck.github.io/P-FastCreateInterfaceDoc/doc/pic/intro.png)
+![](https://luuck.github.io/P-FastCreateInterfaceDoc/doc/pic/intro.png){:height="100px" width="400px"}
 
 ### 访问
 
