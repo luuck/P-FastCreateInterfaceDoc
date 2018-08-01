@@ -36,6 +36,7 @@ npm run build
 ### 如何配置新的接口呢？
 
 本项目是`内置公共接口`，如果需要额外`新增公共接口`的话，`fork`或者是安装项目到本地，然后在`./src/module/admin-config/`进行配置。
+
 <img src="https://luuck.github.io/P-FastCreateInterfaceDoc/doc/pic/path.png" width="300px">
 
 目前支持pc、mobile、admin三个平台的配置，以PC为例，按照以下的格式配置。
