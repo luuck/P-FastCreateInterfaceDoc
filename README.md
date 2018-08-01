@@ -41,7 +41,7 @@ npm run build
 
 目前支持pc、mobile、admin三个平台的配置，以PC为例，按照以下的格式配置。
 
-```
+```JavaScript
 // pc的公用的接口
 export const configPc = [{
     title: '获取活动初始化信息', //接口名称
