@@ -60,6 +60,7 @@ export default {
         }
     },
     created(){
+        // console.log(apiConfig);
         handleConfigData();
         this.hideLoading();
     }
